@@ -1,0 +1,113 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.eyes-main-col{
+  width: 275px;
+  height: 445px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid white;
+  box-shadow: 0 4px 8px 0 rgba(226, 220, 220, 0.2), 0 6px 20px 0 rgba(231, 222, 222, 0.19);
+
+}
+
+.eye-image{
+  width: 120px;
+  height: 122px;
+  background-image: url('../src/Assets/Images/eye.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 50%;
+  border: 8px solid rgb(238, 236, 236);
+}
+
+h2{
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(215, 102, 102);
+  ;letter-spacing: 0.2px;
+}
+
+.text{
+  color: rgba(17, 16, 16, 0.87);
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: -16px;
+}
+.main-text{
+  color: rgba(0, 0, 0, 0.675);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 16px;
+  margin-top: -25px;
+  line-height: 22px;
+}
+
+
+.social_icon2 {
+  width: 70%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+margin: 0 auto;
+margin-top: 15px;
+  }
+  .social {
+    width: 25px;
+    height: 25px;
+    float: left;
+    font-size: 14px;
+    }
+i{
+  color: rgb(225, 47, 47);
+}
+.social2 {
+  width: 25px;
+  height: 25px;
+  float: left;
+  font-size: 14px;
+ }
+ .social3 {
+  width: 25px;
+  height: 25px;
+  float: left;
+  font-size: 14px;
+ }
+ .social4 {
+  width: 25px;
+  height: 25px;
+  float: left;
+  font-size: 14px;
+ }
